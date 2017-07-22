@@ -1,188 +1,206 @@
 <!doctype html>
 <html lang="">
-  <head>
-    <meta charset="utf-8">
-    <meta name="description" content="">
-    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport" />
-    <title>WelcomePagePrivate</title>
 
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
-    <!-- Place favicon.ico in the root directory -->
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport" />
+  <title>WelcomePagePrivate</title>
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <!-- Place favicon.ico in the root directory -->
+  <!-- build:css styles/vendor.css -->
+  <!-- bower:css -->
+  <!-- endbower -->
+  <!-- endbuild -->
+  <!-- build:css styles/main.css -->
+  <link rel="stylesheet" href="styles/main.css">
+  <!-- endbuild -->
+</head>
 
-    <!-- build:css styles/vendor.css -->
-    <!-- bower:css -->
-    <!-- endbower -->
-    <!-- endbuild -->
-
-    <!-- build:css styles/main.css -->
-    <link rel="stylesheet" href="styles/main.css">
-    <!-- endbuild -->
-
-  </head>
-  <body>
-    <!--[if lt IE 10]>
+<body>
+  <!--[if lt IE 10]>
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-    <div class="header-moblie">
-      <svg class="moblie-menu" width="60" height="60" xmlns="http://www.w3.org/2000/svg">
+  <div class="header-moblie">
+    <svg class="moblie-menu" width="60" height="60" xmlns="http://www.w3.org/2000/svg">
       <g>
         <title>background</title>
-        <rect fill="#fff" id="canvas_background" height="62" width="62" y="-1" x="-1"/>
+        <rect fill="#fff" id="canvas_background" height="62" width="62" y="-1" x="-1" />
       </g>
       <g>
         <title>Layer 1</title>
-        <rect stroke="#000000" id="svg_1" height="60" width="60" y="0" x="0" stroke-width="0" fill="none"/>
-        <line stroke="#56aaff" stroke-linecap="null" stroke-linejoin="null" id="svg_2" y2="20" x2="50" y1="20" x1="20" stroke-width="3" fill="none"/>
-        <line stroke="#56aaff" stroke-linecap="null" stroke-linejoin="null" id="svg_5" y2="30" x2="50" y1="30" x1="20" stroke-width="3" fill="none"/>
-        <line stroke="#56aaff" stroke-linecap="null" stroke-linejoin="null" id="svg_6" y2="40" x2="50" y1="40" x1="20" stroke-width="3" fill="none"/>
+        <rect stroke="#000000" id="svg_1" height="60" width="60" y="0" x="0" stroke-width="0" fill="none" />
+        <line stroke="#56aaff" stroke-linecap="null" stroke-linejoin="null" id="svg_2" y2="20" x2="50" y1="20" x1="20" stroke-width="3" fill="none" />
+        <line stroke="#56aaff" stroke-linecap="null" stroke-linejoin="null" id="svg_5" y2="30" x2="50" y1="30" x1="20" stroke-width="3" fill="none" />
+        <line stroke="#56aaff" stroke-linecap="null" stroke-linejoin="null" id="svg_6" y2="40" x2="50" y1="40" x1="20" stroke-width="3" fill="none" />
       </g>
     </svg>
-    </div>
+  </div>
+  <div class="header">
+    <ul>
+      <li></li>
+      <li><a class="parent" href="index.html">首页</a></li>
+      <li class="link" id="link-1">
+        <a class="parent">基本查询</a>
+        <a class="link-son link-1-son" target="_blank" href="http://gis.upc.edu.cn/">校园电子地图</a>
+        <!--<a class="link-son link-1-son" >周边旅游地图</a>-->
+        <a class="link-son link-1-son" href="http://yb.upc.edu.cn/project/dormsearch/#/">查宿舍</a>
+        <a class="link-son link-1-son" href="#">查班级</a>
+        <a class="link-son link-1-son" href="#">查导员</a>
+      </li>
+      <li class="link" id="link-2">
+        <a class="parent" href="kaixuebibei.html">开学事项</a>
+        <a class="link-son link-2-son" href="kaixuebibei.html">入学须知</a>
+        <a class="link-son link-2-son" target="_blank" href="#">报到流程</a>
+        <a class="link-son link-2-son" href="junxungonglue.html">军训攻略</a>
+      </li>
+      <li class="link" id="link-3">
+        <a class="parent" href="xiaoyuanjianjie.html">校园必备</a>
+        <a class="link-son link-3-son" href="#">校规校纪</a>
+        <a class="link-son link-3-son" href="xiaoyuanjianjie.html">住在石大</a>
+        <a class="link-son link-3-son" href="#">吃在石大</a>
+        <a class="link-son link-3-son" href="#">学在石大</a>
+      </li>
+      <li class="link" id="link-4">
+        <a class="parent" target="_blank" href="http://r.xiumi.us/board/v5/2xD64/17398112">学校周边</a>
+        <!--<a class="link-son link-4-son" >交通路线</a>-->
+        <a class="link-son link-4-son" target="_blank" href="http://r.xiumi.us/board/v5/2xD64/17398112">交通路线</a>
+        <a class="link-son link-4-son" target="_blank" href="http://r.xiumi.us/board/v5/2vTwS/17328316">食宿餐饮</a>
+        <a class="link-son link-4-son" target="_blank" href="http://r.xiumi.us/board/v5/2vTwS/17328316">旅游攻略</a>
+        <!--<a class="link-son link-4-son">青岛特产</a>-->
+      </li>
+      <li class="link" id="link-5">
+        <a class="parent">学子风采</a>
+        <a class="link-son link-5-son" href="#">校长奖</a>
+        <a class="link-son link-5-son" href="xuexibiaobing.html">十佳学生</a>
+        <a class="link-son link-5-son" href="#">十佳党员</a>
+        <a class="link-son link-5-son" href="#">
+          <font size="2px">省级先进班集体</font>
+        </a>
+      </li>
+      <li class="link" id="link-7">
+        <a class="parent" href="meijing.html">学院风采</a>
+        <a class="link-son link-7-son" href="#">历史文化</a>
+        <a class="link-son link-7-son" href="#">特色学科</a>
+        <a class="link-son link-7-son" href="#">院内生活</a>
+      </li>
+      <li class="link" id="link-6">
+        <a class="parent" href="meijing.html">魅力石大</a>
+        <a class="link-son link-6-son" href="xuanchuanpian.html">石大宣传片</a>
+        <a class="link-son link-6-son" href="meijing.html">石大美景</a>
+        <a class="link-son link-6-son" href="http://mp.weixin.qq.com/s?__biz=MzA5MjM4NTQ5NQ==&mid=2649681070&idx=1&sn=8a0d581c6f6e879e9aba86a534f0de3b&scene=0#wechat_redirect">最美石大</a>
+        <a class="link-son link-6-son" href="http://mp.weixin.qq.com/s?__biz=MzA4MDM1Njg3NQ==&mid=400039852&idx=3&sn=b7e441dfb42b9630561200e12f464fdf&scene=0#wechat_redirect">石大之秋</a>
+        <a class="link-son link-6-son" href="http://mp.weixin.qq.com/s?__biz=MzA5Mjk4MjU5Nw==&mid=207849098&idx=4&sn=79a4a0a2f1a9a07741371cab72a3602e&scene=0#wechat_redirect">留学石大</a>
+        <a class="link-son link-6-son" href="huodong.html">校园活动</a>
+      </li>
+      <li class="link" id="link-8">
+        <a class="parent" href="meijing.html">温馨提示</a>
+        <a class="link-son link-8-son" href="xuanchuanpian.html">资助政策</a>
+        <a class="link-son link-8-son" href="meijing.html">防中暑小贴士</a>
+        <a class="link-son link-8-son" href="http://mp.weixin.qq.com/s?__biz=MzA5MjM4NTQ5NQ==&mid=2649681070&idx=1&sn=8a0d581c6f6e879e9aba86a534f0de3b&scene=0#wechat_redirect">网络安全知识</a>
+        <a class="link-son link-8-son" href="xuanchuanpian.html">用电安全</a>
+      </li>
+    </ul>
+  </div>
+  <div class="nav">
+    <ul>
+      <li><img height=130 width=130 src="images/nav1.png" class="liIcon">
+        <div class="LinkArr">
+          <h2>基本查询:</h2>
+          <a href="http://yb.upc.edu.cn/project/dormsearch/#/">1.查宿舍&nbsp</a>
+          <br>
+          <a class="link-son link-1-son" href="#">2.查班级</a><br>
+          <a class="link-son link-1-son" href="#">3.查导员</a><br>
+        </div>
+      </li>
+      <li><img height=130 width=130 src="images/nav2.png" class="liIcon">
+        <div class="LinkArr">
+          <h2>开学事项</h2>
+          <a href="kaixuebibei.html">1.入学须知&nbsp</a>
+          <br>
+          <a target="_blank" href="http://mp.weixin.qq.com/s?__biz=MzA5OTkwNTAxNw==&mid=2649788647&idx=1&sn=bd0304a138942739b2d0357ff9bed560&scene=23&srcid=0710REuunV7u0SkUfApHG8yp#rd">2.报到流程&nbsp</a>
+          <br>
+          <a href='junxungonglue.html'>3.军训攻略&nbsp</a>
+          <br>
+        </div>
+      </li>
+      <li><img height=130 width=130 src="images/nav3.png" class="liIcon">
+        <div class="LinkArr">
+          <h2>学院风采</h2>
+          <a href="http://yb.upc.edu.cn/project/ybjieshao/#services">1.历史文化&nbsp</a>
+          <br>
+          <a href="http://yb.upc.edu.cn/project/ybjieshao/#services">2.特色学科&nbsp</a>
+          <br>
+          <a href="http://yb.upc.edu.cn/project/ybjieshao/">3.院内生活&nbsp</a>
+          <br>
+          <!--<a>4.易班应用&nbsp</a><br>-->
+          <!--<a>5.易班活动&nbsp</a><br>-->
+          <!--<a>6.期待加入&nbsp</a><br>-->
+        </div>
+      </li>
+      <li><img height=130 width=130 src="images/nav4.png" class="liIcon">
+        <div class="LinkArr">
+          <h2>校园必备</h2>
+          <a href="#">1.校规校纪&nbsp</a>
+          <br>
+          <a href="#">2.住在石大&nbsp</a>
+          <br>
+          <a href="#">3.吃在石大&nbsp</a>
+          <br>
+          <!--<a>4.购物打印体育运动分布&nbsp</a><br>-->
+        </div>
+      </li>
+      <li><img height=130 width=130 src="images/nav5.png" class="liIcon">
+        <div class="LinkArr">
+          <h2>学校周边</h2>
+          <a>1.交通路线&nbsp</a>
+          <br>
+          <a href="http://r.xiumi.us/board/v5/2xD64/17398112">2.食宿餐饮&nbsp</a>
+          <br>
+          <a href="http://r.xiumi.us/board/v5/2vTwS/17328316">3.旅游攻略&nbsp</a>
+          <br>
+          <!--<a>4.青岛特产&nbsp</a><br>-->
+        </div>
+      </li>
+      <li><img height=130 width=130 src="images/nav6.png" class="liIcon">
+        <div class="LinkArr">
+          <h2>学子风采</h2>
+          <a href="#">1.校长奖&nbsp</a>
+          <br>
+          <a href="xuexibiaobing.html">2.十佳学生&nbsp</a>
+          <br>
+          <a href="#">3.十佳党员&nbsp</a>
+          <br>
+          <!--<a>4.省级先进班集体&nbsp</a><br>-->
+        </div>
+      </li>
+      <li><img height=130 width=130 src="images/nav7.png" class="liIcon">
+        <div class="LinkArr">
+          <h2>石大美景</h2>
+          <a href="xuanchuanpian.html">1.石光漫步+石大宣传片&nbsp</a>
+          <br>
+          <a href="#">2.最美石大&nbsp;&nbsp;&nbsp;</a>
+          <br/>
+          <a href="huodong.html">3.校园活动&nbsp</a>
+          <br>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <footer>
+    <h4>中国石油大学17迎新QQ群：598091496</h4>
+    <hr width="98%" color="gainsboro" size="1">
+    <h4>Powered By 易班技术开发部</h4>
+  </footer>
+  <div class="blurBG" style="display: none;"></div>
+  <!-- build:js scripts/vendor.js -->
+  <!-- bower:js -->
+  <script src="/bower_components/jquery/dist/jquery.js"></script>
+  <!-- endbower -->
+  <!-- endbuild -->
+  <!-- build:js scripts/main.js -->
+  <script src="scripts/main.js"></script>
+  <!-- endbuild -->
+</body>
 
-    <div class="header">
-      <ul >
-        <li></li>
-        <li><a class="parent" href="index.html">首页</a></li>
-        <li class="link" id="link-1">
-          <a class="parent">基本查询</a>
-          <a class="link-son link-1-son" target="_blank" href="http://gis.upc.edu.cn/">校园电子地图</a>
-          <!--<a class="link-son link-1-son" >周边旅游地图</a>-->
-          <a class="link-son link-1-son" href="http://yb.upc.edu.cn/project/dormsearch/#/">查宿舍</a>
-          <a class="link-son link-1-son" href="http://r.xiumi.us/board/v5/2qm1n/17399570" ><font size="2px">院部攻略之储建</font></a>
-        </li>
-        <li class="link" id="link-2">
-          <a class="parent" href="kaixuebibei.html">开学事项</a>
-          <a class="link-son link-2-son" href="kaixuebibei.html">入学须知</a>
-          <a class="link-son link-2-son" target="_blank" href="http://mp.weixin.qq.com/s?__biz=MzA5OTkwNTAxNw==&mid=2649788647&idx=1&sn=bd0304a138942739b2d0357ff9bed560&scene=23&srcid=0710REuunV7u0SkUfApHG8yp#rd">报道流程</a>
-          <a class="link-son link-2-son" href="junxungonglue.html">新生军训</a>
-        </li>
-        <li class="link" id="link-3">
-          <a class="parent" href="xiaoyuanjianjie.html">校园须知</a>
-          <a class="link-son link-3-son" href="xiaoyuanjianjie.html#wenyin">宿舍楼介绍</a>
-          <a class="link-son link-3-son" href="chizaishida.html">食堂餐饮</a>
-          <a class="link-son link-3-son" href="xiaoyuanjianjie.html#yinhang">银行营业厅</a>
-          <a class="link-son link-3-son" href="xiaoyuanjianjie.html#wenyin">文体分布</a>
-          <a class="link-son link-3-son" href="xiaoyuanjianjie.html#wenyin">教学建筑分布</a>
-        </li>
-        <li class="link" id="link-4">
-          <a class="parent" target="_blank" href="http://r.xiumi.us/board/v5/2xD64/17398112">学校周边</a>
-          <!--<a class="link-son link-4-son" >交通路线</a>-->
-          <a class="link-son link-4-son" target="_blank" href="http://r.xiumi.us/board/v5/2xD64/17398112">食宿餐饮</a>
-          <a class="link-son link-4-son" target="_blank" href="http://r.xiumi.us/board/v5/2vTwS/17328316">旅游攻略</a>
-          <!--<a class="link-son link-4-son">青岛特产</a>-->
-        </li>
-        <li class="link" id="link-5">
-          <a class="parent" target="_blank" href="http://yb.upc.edu.cn/project/ybjieshao/">易班指南</a>
-          <a class="link-son link-5-son"  target="_blank" href="http://yb.upc.edu.cn/project/ybjieshao/#services">易班介绍</a>
-          <a class="link-son link-5-son"  target="_blank" href="http://yb.upc.edu.cn/project/ybjieshao/#services">客户端使用</a>
-          <a class="link-son link-5-son"  target="_blank" href="http://yb.upc.edu.cn/project/ybjieshao/">网络端使用</a>
-          <a class="link-son link-5-son"  target="_blank" href="http://yb.upc.edu.cn/project/ybjieshao/#application">易班应用</a>
-          <a class="link-son link-5-son"  target="_blank" href="http://yb.upc.edu.cn/project/ybjieshao/">易班活动</a>
-          <a class="link-son link-5-son">期待加入</a>
-        </li>
-        <li class="link" id="link-6">
-          <a class="parent">学子风采</a>
-          <a class="link-son link-6-son" href="xuexibiaobing.html">十佳学生</a>
-          <a class="link-son link-6-son" href="xuexibiaobing.html">十佳团员</a>
-          <a class="link-son link-6-son" href="xuexibiaobing.html">十佳党员</a>
-          <a class="link-son link-6-son" href="xuexibiaobing.html"><font size="2px">省级先进班集体</font></a>
-        </li>
-        <li class="link" id="link-7">
-          <a class="parent" href="meijing.html">石大美景</a>
-          <a class="link-son link-7-son" href="xuanchuanpian.html">石大宣称片</a>
-          <a class="link-son link-7-son" href="huodong.html">活动照片</a>
-        </li>
-
-      </ul>
-      </div>
-    <div class="nav">
-
-      <ul>
-
-        <li><img height=130 width=130 src="images/nav1.png" class="liIcon">
-          <div class="LinkArr">
-            <h2>基本查询:</h2>
-            <a href="http://gis.upc.edu.cn/">1.校园电子地图&nbsp</a><br>
-            <a href="#">2.学校周边旅游地图&nbsp</a><br>
-            <a href="http://yb.upc.edu.cn/project/dormsearch/#/">3.查宿舍&nbsp</a><br>
-          </div>
-
-
-        </li>
-        <li><img height=130 width=130 src="images/nav2.png" class="liIcon">
-          <div class="LinkArr">
-            <h2>开学事项</h2>
-            <a href="kaixuebibei.html">1.入学须知&nbsp</a><br>
-            <a target="_blank" href="http://mp.weixin.qq.com/s?__biz=MzA5OTkwNTAxNw==&mid=2649788647&idx=1&sn=bd0304a138942739b2d0357ff9bed560&scene=23&srcid=0710REuunV7u0SkUfApHG8yp#rd">2.报到流程&nbsp</a><br>
-            <a href='junxungonglue.html'>3.新生军训&nbsp</a><br>
-          </div>
-        </li>
-        <li><img height=130 width=130 src="images/nav3.png" class="liIcon">
-          <div class="LinkArr">
-            <h2>易班指南</h2>
-            <a href="http://yb.upc.edu.cn/project/ybjieshao/#services">1.易班介绍&nbsp</a><br>
-            <a href="http://yb.upc.edu.cn/project/ybjieshao/#services">2.客户端使用&nbsp</a><br>
-            <a href="http://yb.upc.edu.cn/project/ybjieshao/">3.网页端使用&nbsp</a><br>
-            <!--<a>4.易班应用&nbsp</a><br>-->
-            <!--<a>5.易班活动&nbsp</a><br>-->
-            <!--<a>6.期待加入&nbsp</a><br>-->
-          </div>
-        </li>
-        <li><img height=130 width=130 src="images/nav4.png" class="liIcon">
-          <div class="LinkArr">
-            <h2>校园须知</h2>
-            <a href="xiaoyuanjianjie.html#wenyin">1.宿舍楼介绍&nbsp</a><br>
-            <a href="http://r.xiumi.us/board/v5/2xD64/17521090">2.食堂餐饮&nbsp</a><br>
-            <a>3.银行、电信营业厅&nbsp</a><br>
-            <!--<a>4.购物打印体育运动分布&nbsp</a><br>-->
-          </div>
-        </li>
-        <li><img height=130 width=130 src="images/nav5.png" class="liIcon">
-          <div class="LinkArr">
-            <h2>学校周边</h2>
-            <a>1.交通路线&nbsp</a><br>
-            <a href="http://r.xiumi.us/board/v5/2xD64/17398112">2.食宿餐饮&nbsp</a><br>
-            <a href="http://r.xiumi.us/board/v5/2vTwS/17328316">3.旅游攻略&nbsp</a><br>
-            <!--<a>4.青岛特产&nbsp</a><br>-->
-          </div>
-        </li>
-
-        <li><img height=130 width=130 src="images/nav6.png" class="liIcon">
-          <div class="LinkArr">
-            <h2>学子风采</h2>
-            <a href="xuexibiaobing.html">1.十佳学生&nbsp</a><br>
-            <a href="xuexibiaobing.html">2.十佳团员&nbsp</a><br>
-            <a href="xuexibiaobing.html">3.十佳党员&nbsp</a><br>
-            <!--<a>4.省级先进班集体&nbsp</a><br>-->
-          </div>
-        </li>
-        <li><img height=130 width=130 src="images/nav7.png" class="liIcon">
-          <div class="LinkArr">
-            <h2>石大美景</h2>
-            <a href="xuanchuanpian.html">1.石光漫步+石大宣传片&nbsp</a><br>
-            <a href="chizaishida.html">2.食堂餐饮&nbsp;&nbsp;&nbsp;</a><br/>
-            <a href="huodong.html">3.活动照片&nbsp</a><br>
-          </div>
-        </li>
-      </ul>
-    </div>
-<footer>
-
-  <hr width="98%" color="gainsboro" size="1">
-  <h4 class="red">Powered By 易班技术开发部</h4>
-</footer>
-<div class="blurBG"></div>
-    <!-- CNZZ Analytics: change UA-XXXXX-X to be your site's ID. -->
-    <script src="https://s11.cnzz.com/z_stat.php?id=1259236200&web_id=1259236200" language="JavaScript"></script>
-
-    <!-- build:js scripts/vendor.js -->
-    <!-- bower:js -->
-    <script src="/bower_components/jquery/dist/jquery.js"></script>
-    <!-- endbower -->
-    <!-- endbuild -->
-
-    <!-- build:js scripts/main.js -->
-    <script src="scripts/main.js"></script>
-    <!-- endbuild -->
-  </body>
 </html>
