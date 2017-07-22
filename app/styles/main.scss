@@ -228,7 +228,7 @@ li {
   list-style-type: none;
 }
 
-a {
+.header a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   -ms-transition: all 0.35s;
@@ -240,9 +240,10 @@ a {
   float: left;
   margin: 0;
   padding: 0;
+  cursor: pointer;
 }
 
-a:hover {
+.header a:hover {
   background: deepskyblue;
   color: white;
 }
