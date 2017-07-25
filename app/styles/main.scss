@@ -200,7 +200,7 @@ li:hover .link-son{
     transform: translate(0,0);
   }
   .nav{
-    height: 1140px;
+    height: auto;
     width: 95%;
     margin-top:0px;
     margin-left:auto;
@@ -211,9 +211,15 @@ li:hover .link-son{
       margin-top: 70px;
       li{
         width:100%;
+        height: 100px!important;
         margin:5px auto;
+        img{
+          height: 80px!important;
+          width: 80px!important;
+        }
         h2{
           margin:8px;
+          font-size: 16px;
         }
         a:hover{
           background: deepskyblue;
